@@ -1,0 +1,8 @@
+ssh -i "private_key_path" xinterview5@ec2-18-216-99-196.us-east-2.compute.amazonaws.com
+
+kafka-topics.sh --create \
+   --zookeeper localhost:2181 \
+    --topic CAR_DATA \
+    --partitions 1 \
+    --replication-factor 1
+

@@ -1,0 +1,2 @@
+ControllerServiceName	ControllerServiceType	PropertyKeys	PropertyValues
+KendrickTestAWS	org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderControllerService	default-credentials	true
